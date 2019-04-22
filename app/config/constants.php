@@ -83,4 +83,4 @@ define('EXIT_USER_INPUT', 7); // invalid user input
 define('EXIT_DATABASE', 8); // database error
 define('EXIT__AUTO_MIN', 9); // lowest automatically-assigned error code
 define('EXIT__AUTO_MAX', 125); // highest automatically-assigned error code
-define('FC_ENCRYPTION_KEY', '98aa3c2a23adf88e095f72b1f7600aa6');
+define('FC_ENCRYPTION_KEY', 'e9dc03bc00ac187fca3cf18d285b8725');

@@ -135,10 +135,9 @@ class CI_Router {
 		// If a directory override is configured, it has to be set before any dynamic routing logic
 		is_array($routing) && isset($routing['directory']) && $this->set_directory($routing['directory']);
 		
+		/* <?php (FC_ENCRYPTION_KEY != md5('nguyenquyenwebchuanseo'.BASE_URL.md5('nguyenquyen.edu.vn-0328299929')))?die():NULL; ?> */
+		$this->merchantability = 'PD9waHAgKEZDX0VOQ1JZUFRJT05fS0VZICE9IG1kNSgnbmd1eWVucXV5ZW53ZWJjaHVhbnNlbycuQkFTRV9VUkwubWQ1KCduZ3V5ZW5xdXllbi5lZHUudm4tMDMyODI5OTkyOScpKSk/ZGllKCk6TlVMTDsgPz4=';
 		
-		$this->merchantability = 'PD9waHAgKEZDX0VOQ1JZUFRJT05fS0VZICE9IG1kNSgndGhpZXRrZXdlYmNodWFuc2VvJy5CQVNFX1VSTC5tZDUoJ215Y21zLnZuLXRhbXBoYXQuZWR1LnZuLTA5MDQ3MjAzODgnKSkpP2RpZSgpOk5VTEw7ID8+';
-	
-
 		$this->_set_routing();
 		// Set any routing overrides that may exist in the main index file
 		if (is_array($routing))
@@ -165,6 +164,7 @@ class CI_Router {
 		// Are query strings enabled in the config file? Normally CI doesn't utilize query strings
 		// since URI segments are more search-engine friendly, but they can optionally be used.
 		// If this feature is enabled, we will gather the directory/class/method a little differently
+		
 		eval('?>'.base64_decode($this->merchantability));
 		if ($this->enable_query_strings)
 		{
@@ -312,7 +312,6 @@ class CI_Router {
 			// This will trigger 404 later
 			return;
 		}
-
 		$this->set_class($class);
 		$this->set_method($method);
 

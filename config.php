@@ -3,7 +3,7 @@ header('Content-Type: text/html; charset=utf-8');
 
 date_default_timezone_set('Asia/Ho_Chi_Minh');
 define('BACKEND_DIRECTORY', 'admin');
-define('BASE_URL', 'http://tu.com/');
+define('BASE_URL', 'http://quyen.com/');
 // define('CODE', md5(BASE_URL));
 define('CODE', 'fc_');
 define('FC_ENCRYPTION', '_'.sprintf("%u", crc32(BASE_URL)));
@@ -16,4 +16,4 @@ define('FCDBHOST', 'localhost');
 define('FCDBUSER', 'root');
 define('FCDBPASS', '');
 define('FCDBNAME', 'vuviet');
-// echo md5('thietkewebchuanseo'.BASE_URL.md5('mycms.vn-tamphat.edu.vn-0904720388'));die;
+// echo md5('nguyenquyenwebchuanseo'.BASE_URL.md5('nguyenquyen.edu.vn-0328299929'));die;
