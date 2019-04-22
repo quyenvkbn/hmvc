@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module>
+	<permissions>
+		
+	</permissions>
+	<permissions>
+		<title>Test[Test]</title>
+		<item>
+			<param>test/backend/test/view</param>
+			<description>Xem</description>
+		</item>
+		<item>
+			<param>test/backend/test/create</param>
+			<description>Thêm</description>
+		</item>
+		<item>
+			<param>test/backend/test/update</param>
+			<description>Sửa</description>
+		</item>
+		<item>
+			<param>test/backend/test/delete</param>
+			<description>Xóa</description>
+		</item>
+		<item>
+			<param>test/backend/test/read</param>
+			<description>Đọc</description>
+		</item>
+	</permissions>
+</module>
